@@ -1,0 +1,36 @@
+site_name: key-nk
+repo_url: https://github.com/eduardolirainfo/key-nk
+repo_name: key-nk
+
+theme:
+  name: material
+  description: "Documentação do projeto key-nk"
+  author: Eduardo Lira
+  language: pt-BR
+  logo: assets/img/logo.png
+  url: https://eduardolirainfo.github.io/key-nk/
+  favicon: https://eduardolirainfo.github.io/key-nk/favicon.ico
+  keywords: "key-nk, key, nk, key-nk project, key project, nk project, key-nk documentation, key documentation, nk documentation, key-nk docs, key docs, nk docs"
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Modo Escuro
+    - media:  '(prefers-color-scheme: light)'
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Modo Claro
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - assets/css/custom.css
+  - https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i
+  - https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,500,500i,700,700i
+ 
